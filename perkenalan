@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perkenalan Diri</title>
+<style>
+    @keyframes bergerak {
+        0% { transform: translateX(-100px); opacity: 0; }
+        100% { transform: translateX(0); opacity: 1; }
+    }
+
+    .perkenalan {
+        animation: bergerak 1s ease-out;
+    }
+</style>
+</head>
+<body>
+
+<div class="perkenalan">
+    <h1>Halo, nama saya Muhamad Arifudin Kholisin!</h1>
+    <p>Lahir di Sidoarjo pada tanggal 26-04-2004. Saat ini saya tinggal di Surabaya. Saya adalah seorang mahasiswa jurusan kepelatihan.</p>
+</div>
+
+</body>
+</html>
